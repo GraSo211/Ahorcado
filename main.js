@@ -1,7 +1,6 @@
 function crearHorca(){
     var horca =new Image();
-    horca.src = "../images/horca.png"
-    console.log("imagens")
+    horca.src = "horca.png"
     horca.onload = function(){
         pincel.scale(0.5,0.5)
         pincel.drawImage(horca,600,100)
@@ -199,7 +198,7 @@ function dibujarHorca(errores){
         case 0:
         //cabeza
         var cabeza = new Image();
-        cabeza.src = "../images/cabeza.png";
+        cabeza.src = "cabeza.png";
         cabeza.onload = function(){
         pincel.drawImage(cabeza, 905, 325, 120, 100)
         }
@@ -208,7 +207,7 @@ function dibujarHorca(errores){
         case 1:
         //cuerpo
         var cuerpo = new Image();
-        cuerpo.src = "../images/cuerpo.png";
+        cuerpo.src = "cuerpo.png";
         cuerpo.onload = function(){
         pincel.drawImage(cuerpo, 900, 425, 130, 140)
         }
@@ -217,7 +216,7 @@ function dibujarHorca(errores){
         case 2:
         //mano izq
         var brazo = new Image();
-        brazo.src = "../images/brazo.png";
+        brazo.src = "brazo.png";
         brazo.onload = function(){
         pincel.drawImage(brazo, 823, 426, 80, 170)
         }
@@ -226,7 +225,7 @@ function dibujarHorca(errores){
         case 3:
         //mano der
         var brazo1 = new Image();
-        brazo1.src = "../images/brazo1.png";
+        brazo1.src = "brazo1.png";
         brazo1.onload = function(){
         pincel.drawImage(brazo1, 1030, 424, 60, 170)
         }
@@ -235,7 +234,7 @@ function dibujarHorca(errores){
         case 4:
         //pie izq
         var pierna = new Image();
-        pierna.src = "../images/pierna.png";
+        pierna.src = "pierna.png";
         pierna.onload = function(){
         pincel.drawImage(pierna, 897, 560  , 60, 140)
         }
@@ -244,7 +243,7 @@ function dibujarHorca(errores){
         case 5:
         //pie der
         var pierna1 = new Image();
-        pierna1.src = "../images/pierna1.png";
+        pierna1.src = "pierna1.png";
         pierna1.onload = function(){
         pincel.drawImage(pierna1, 971, 560, 60, 140)
         }
@@ -315,7 +314,7 @@ function agregarPalabra(){
         color: '#716add',
         backdrop: `
         rgba(0,0,123,0.4)
-        url("../images/nyan-cat.gif")
+        url("nyan-cat.gif")
         left top
         no-repeat
         `,  
