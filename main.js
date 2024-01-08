@@ -271,7 +271,7 @@ function derrota(palabra){
         confirmButtonColor:"#c20000",
         color: "#c20000"
     }).then(function(){
-        window.location= "../html/index.html"
+        window.location= "./index.html"
     })
 }
 
@@ -295,7 +295,7 @@ function victoria(){
         confirmButtonColor:"#258d19",
         color: "#258d19"
     }).then(function(){
-        window.location= "../html/index.html"
+        window.location= "./index.html"
     })  
 }
 
